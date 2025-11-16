@@ -5,6 +5,7 @@ modelado de problema aplicado a la ingeniería civil
 Este proyecto es una aplicación desarrollada en Python que calcula la carga axial admisible en columnas sometidas a compresión.
 Incluye un modelo matemático completo, funciones de análisis estructural y una interfaz gráfica (Tkinter) que facilita su uso sin necesidad de conocimientos avanzados de programación.
 
+
 📌 ¿Qué hace este proyecto?
 ✔️ 1. Recibe los datos de una columna
 
@@ -21,6 +22,7 @@ Material (concreto o acero)
 Carga aplicada (kN)
 
 Estos datos se procesan para generar parámetros estructurales.
+
 
 ✔️ 2. Calcula la carga admisible del material
 
@@ -61,6 +63,7 @@ FS = factor de seguridad
 
 Este cálculo aplica cuando la columna no es esbelta.
 
+
 ✔️ 3. Evalúa la esbeltez
 
 El sistema calcula la relación de esbeltez:
@@ -79,6 +82,7 @@ KL
 λ ≤ 12 → la columna se considera corta
 
 λ > 12 → la columna es esbelta y se evalúa pandeo
+
 
 ✔️ 4. Calcula el pandeo por la fórmula de Euler
 
@@ -139,6 +143,7 @@ Resistencia del material
 
 Pandeo por Euler
 
+
 ✔️ 5. Determina si la columna es segura
 
 Se evalúa:
@@ -167,6 +172,7 @@ Margen disponible
 
 Equilibrio aproximado
 
+
 ✔️ 6. Permite analizar múltiples columnas
 
 El programa puede recibir una matriz completa de columnas, calcular cada una y generar:
@@ -176,6 +182,7 @@ Total de carga excedida (fallas)
 Total de carga sobrante (margen)
 
 Tabla de resultados por columna
+
 
 ✔️ 7. Incluye una interfaz gráfica (GUI)
 
@@ -199,6 +206,7 @@ Ejecutar pruebas automáticas
 
 Todo manejado visualmente.
 
+
 ✔️ 8. Contiene pruebas integradas
 
 El proyecto incorpora tres casos de prueba predefinidos:
@@ -210,6 +218,7 @@ Columna esbelta donde gobierna Euler
 Columna que falla por exceder su capacidad
 
 Sirven para verificar el funcionamiento del modelo.
+
 
 📄 Resumen general
 
