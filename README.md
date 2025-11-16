@@ -1,6 +1,6 @@
 # practica-6-al079524-
 modelado de problema aplicado a la ingeniería civil
-🏗️ Cálculo de Carga Axial Admisible en Columnas
+#🏗️ Cálculo de Carga Axial Admisible en Columnas
 
 Este proyecto es una aplicación desarrollada en Python que calcula la carga axial admisible en columnas sometidas a compresión.
 Incluye un modelo matemático completo, funciones de análisis estructural y una interfaz gráfica (Tkinter) que facilita su uso sin necesidad de conocimientos avanzados de programación.
